@@ -1,0 +1,1406 @@
+{
+  "firstLayout": "Title Screen",
+  "gdVersion": {
+    "build": 254,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.firith.studio.duck",
+    "pixelsRounding": false,
+    "projectUuid": "b4facdf0-2960-4ad8-bc43-3b9091738fc2",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "duck-game",
+    "version": "1.0.0",
+    "name": "Beneath the Moonlight - Copy",
+    "description": "",
+    "author": "",
+    "windowWidth": 768,
+    "windowHeight": 768,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "android-icon-144.png",
+      "android-icon-192": "android-icon-192.png",
+      "android-icon-36": "android-icon-36.png",
+      "android-icon-48": "android-icon-48.png",
+      "android-icon-72": "android-icon-72.png",
+      "android-icon-96": "android-icon-96.png",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "desktop-icon-512.png",
+      "ios-icon-100": "ios-icon-100.png",
+      "ios-icon-1024": "ios-icon-1024.png",
+      "ios-icon-114": "ios-icon-114.png",
+      "ios-icon-120": "ios-icon-120.png",
+      "ios-icon-144": "ios-icon-144.png",
+      "ios-icon-152": "ios-icon-152.png",
+      "ios-icon-167": "ios-icon-167.png",
+      "ios-icon-180": "ios-icon-180.png",
+      "ios-icon-20": "ios-icon-20.png",
+      "ios-icon-29": "ios-icon-29.png",
+      "ios-icon-40": "ios-icon-40.png",
+      "ios-icon-50": "ios-icon-50.png",
+      "ios-icon-57": "ios-icon-57.png",
+      "ios-icon-58": "ios-icon-58.png",
+      "ios-icon-60": "ios-icon-60.png",
+      "ios-icon-72": "ios-icon-72.png",
+      "ios-icon-76": "ios-icon-76.png",
+      "ios-icon-80": "ios-icon-80.png",
+      "ios-icon-87": "ios-icon-87.png",
+      "liluo-thumbnail": "thumbnail.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [
+      "platformer"
+    ],
+    "playableDevices": [
+      "keyboard",
+      "mobile",
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Music3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Music2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/TheEnd_Sprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TheEnd_Sprite.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Heart13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PressStart_sprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PressStart_sprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cloud_Left2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cloud_Left.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/ad22855a2e765265c0825bdc31ff8dcea0205892f412cbb3056619dfea435966-Cloud_Left.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Cloud_Right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cloud_Right.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/39c03f765e0310b88318a33bc6d2ee5390e02c0163d62da492a3ae6719306d5d-Cloud_Right.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Cloud_Center2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cloud_Center.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/29f919a59be0433d9c308bf71223e3767d482589e76b544a62d02d6f6f74deeb-Cloud_Center.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Title_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/6e139303bd8fd693f839ed07f24df47fe4738b02fb062e69cb041ab7546a62bc-Title_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Logo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Logo.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/6e139303bd8fd693f839ed07f24df47fe4738b02fb062e69cb041ab7546a62bc-Logo.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/walls_floor2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walls_floor.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/ad0cb0f005f46195df4d9e9ed31418f6e84f8cffde6cee76d736513f2c3ab4a2-walls_floor.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/doors_lever_chest_animation2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doors_lever_chest_animation.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/a67ff9c85ac8970fd4e5c1bc6fdd161a965c0d7c59d793022440d9fe3fa9612b-doors_lever_chest_animation.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/685259de3c93a2a60b92aa5c556ce7b737fa217346ce5906316c6e74950bbe34-Background.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Moon2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moon.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/1a61dfbff5988e0aff071967dad88091e299115684a56fb63fa9701eda354b46-Moon.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManFrontWalk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleManFrontWalk1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/cc4cfbe98d12d592b04f31f76269d369bc369dec60ee162933e6fc843f742339-NobleManFrontWalk1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManFrontWalk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleManFrontWalk2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/2f64ca089f812a95f1888871d4e5c8b5c7c08278e8d35116ec51d6717a66ab37-NobleManFrontWalk2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManFrontWalk7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleManFrontWalk3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/cc4cfbe98d12d592b04f31f76269d369bc369dec60ee162933e6fc843f742339-NobleManFrontWalk3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManFrontWalk8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleManFrontWalk4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/dc6c416dc3b233512c0ee43e1921bc2053252dc476a538dc1eb5f3574dbf4d78-NobleManFrontWalk4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManSideWalk1.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NobleManSideWalk1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/489623069f08867ae6020723530c6f99da12961d37fe67814de814f8d6b9d92a-NobleManSideWalk1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManSideWalk2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NobleManSideWalk2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/20521695bb7eacc4736b869a7aa9dc46778510367bb3ad86dd3ebe924c8ed689-NobleManSideWalk2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManSideWalk3.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NobleManSideWalk3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/489623069f08867ae6020723530c6f99da12961d37fe67814de814f8d6b9d92a-NobleManSideWalk3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManSideWalk4.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NobleManSideWalk4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/bd2cfa658ede0f88563493725685bf0857eee5fc4b19ac5c9d403401fda72d1f-NobleManSideWalk4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/right5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "right1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/489623069f08867ae6020723530c6f99da12961d37fe67814de814f8d6b9d92a-right1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/right6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "right2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/20521695bb7eacc4736b869a7aa9dc46778510367bb3ad86dd3ebe924c8ed689-right2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/right7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "right3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/489623069f08867ae6020723530c6f99da12961d37fe67814de814f8d6b9d92a-right3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/right8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "right4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/bd2cfa658ede0f88563493725685bf0857eee5fc4b19ac5c9d403401fda72d1f-right4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManBackWalk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleManBackWalk1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/8a8d7fe7902af4661b8952026343262ccfb73b7d05568e922a96773c06d9cad8-NobleManBackWalk1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManBackWalk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleManBackWalk2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/842916dc961f31d489ede0d0e2a46d12680b34af424837899b1609ba715f5c27-NobleManBackWalk2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManBackWalk7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleManBackWalk3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/8a8d7fe7902af4661b8952026343262ccfb73b7d05568e922a96773c06d9cad8-NobleManBackWalk3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleManBackWalk8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleManBackWalk4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/243e42d552ee1a383052a4494397b997258331c78fd1d65c331cc0b39f4ce628-NobleManBackWalk4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlFoward5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlFoward1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/9f44088cdf28e091a337937fcd7268306354a0389bc6c7a8fd8c304e26fd679c-NobleGirlFoward1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlFoward6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlFoward2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/35b34d21c83746fd0b7db7b813139c08720a5cdc6ca3d031ded0b4bbce12c4e7-NobleGirlFoward2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlFoward7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlFoward3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/9f44088cdf28e091a337937fcd7268306354a0389bc6c7a8fd8c304e26fd679c-NobleGirlFoward3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlFoward8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlFoward4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/a7673238704a26697a4db8ab2fce3be8081ee6868d61be8783918da76738aef5-NobleGirlFoward4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/GirlSide1.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GirlSide1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/a7a06a2ee84f54a97ac6f2952f71e3aa6b1e2ac2cec863f8912732c1374f4cbb-GirlSide1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/GirlSide2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GirlSide2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/a8515ae9fef349296b9430a5dc350753a76e13ee8abcc2fb5484cc87a43708e7-GirlSide2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/GirlSide3.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GirlSide3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/a7a06a2ee84f54a97ac6f2952f71e3aa6b1e2ac2cec863f8912732c1374f4cbb-GirlSide3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/GirlSide4.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GirlSide4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/c30f107e895979c8d9178c8c75b94464811d7dbd868bd97f814b48b9f2098b81-GirlSide4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlSide5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlSide1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/a7a06a2ee84f54a97ac6f2952f71e3aa6b1e2ac2cec863f8912732c1374f4cbb-NobleGirlSide1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlSide6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlSide2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/a8515ae9fef349296b9430a5dc350753a76e13ee8abcc2fb5484cc87a43708e7-NobleGirlSide2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlSide7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlSide3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/a7a06a2ee84f54a97ac6f2952f71e3aa6b1e2ac2cec863f8912732c1374f4cbb-NobleGirlSide3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlSide8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlSide4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/c30f107e895979c8d9178c8c75b94464811d7dbd868bd97f814b48b9f2098b81-NobleGirlSide4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlBack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlBack1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/1a40e9fe86e019abeaa17967c206aa9f7fab5decf00a6a730302d1af948efbc5-NobleGirlBack1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlBack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlBack2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/dba1ed9b5e3c6f7b58f4d340eb9d4b4af18681c1cb2c69906760b6c6ad338ce0-NobleGirlBack2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlBack7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlBack3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/1a40e9fe86e019abeaa17967c206aa9f7fab5decf00a6a730302d1af948efbc5-NobleGirlBack3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NobleGirlBack8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NobleGirlBack4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/1c906040-4f81-4b50-903f-dff3161b4618/resources/2c9f2754eb9ccd13d12979418cc1c3623ef7447b83d09afdbc70c1f93052fa9d-NobleGirlBack4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TheEnd.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\TheEnd.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite20.png\"}",
+        "name": "NewSprite20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kiss.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Kiss.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite22.png\"}",
+        "name": "NewSprite22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MonsterFriendFore.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "MonsterFriendFore.otf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fipps-Regular.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Fipps-Regular.otf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Boxy-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Boxy-Bold.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/MonsterFriendFore2.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "MonsterFriendFore2.otf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite25.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite24.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite26.png\"}",
+        "name": "NewSprite26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite27.png\"}",
+        "name": "NewSprite27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite29.png\",\"pskl\":{}}",
+        "name": "NewSprite29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite30.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite29.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite29.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite29 - Copy.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite29 - Copy.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite29 - Copy.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite30",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite34.png\"}",
+        "name": "NewSprite34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite35.png\"}",
+        "name": "NewSprite35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite39",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite39.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite37.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite41.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite41.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite41.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite42.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite40.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite40.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PixelGameFont.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PixelGameFont.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite40",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite41",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite42",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite43",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite44",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite45",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Titlescreen.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Titlescreen",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite46",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite47",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite48",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite49",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite50",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite51.png\"}",
+        "name": "NewSprite51",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite52.png\"}",
+        "name": "NewSprite52",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite53.png\"}",
+        "name": "NewSprite53",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite54.png\"}",
+        "name": "NewSprite54",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/doors_lever_chest_animation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\doors_lever_chest_animation.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite55",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite56",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite57",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite58",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite59",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite60",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite61",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite62",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite63",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite67.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite64",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Off.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Off",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Off2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Off2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Off3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Off3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Off4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Off4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Off5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Off5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Off6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Off6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Off7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Off7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Off8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Off8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite25",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Level",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "Level_1_Timer",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Level_2_Timer",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Stars",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/title-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lose"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/win"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sinemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pixelperfectmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/topdownmovementanimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ysort"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timeformatter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    }
+  ],
+  "externalLayouts": []
+}
