@@ -22,7 +22,8 @@
     "snap": false,
     "zoomFactor": 0.7158609330461511,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
   "variables": [
