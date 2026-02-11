@@ -20,7 +20,7 @@
     "gridColor": 6457087,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6699193882650103,
+    "zoomFactor": 1.0310086182631084,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -2330,7 +2330,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2340,7 +2339,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Rules",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2570,7 +2568,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4384,7 +4381,7 @@
       "isLocked": false,
       "name": "Fade",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
