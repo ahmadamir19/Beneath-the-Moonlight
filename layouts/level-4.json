@@ -342,7 +342,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Time",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -476,7 +475,7 @@
                 "TimerText2",
                 "Text",
                 "=",
-                "\"Time:  \"+TimeFormatter::SecondsToHHMMSS(GlobalVariable(Level_2_Timer))"
+                "\"Time:  \"+TimeFormatter::SecondsToHHMMSS(GlobalVariable(Level_4_Timer))"
               ]
             }
           ]
