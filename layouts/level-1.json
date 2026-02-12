@@ -20,7 +20,7 @@
     "gridColor": 6457087,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7158609330461511,
+    "zoomFactor": 2.3623200458471225,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -1534,7 +1534,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Time",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1746,7 +1745,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3607,7 +3605,7 @@
       "isLocked": false,
       "name": "Fade",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
