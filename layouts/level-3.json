@@ -343,6 +343,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Time",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1671,7 +1672,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Win calculation events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1728,7 +1728,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "Level_1_Timer",
+                "Level_3_Timer",
                 ">=",
                 "40"
               ]
@@ -1848,7 +1848,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "Level_1_Timer",
+                "Level_3_Timer",
                 ">=",
                 "15"
               ]
@@ -1858,7 +1858,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "Level_1_Timer",
+                "Level_3_Timer",
                 "<",
                 "40"
               ]
@@ -1978,7 +1978,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "Level_1_Timer",
+                "Level_3_Timer",
                 ">=",
                 "1"
               ]
@@ -1988,7 +1988,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "Level_1_Timer",
+                "Level_3_Timer",
                 "<",
                 "15"
               ]
